@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.102
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29209.62
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleResponsibilityPrinciple", "DesignPatterns\SingleResponsibilityPrinciple.csproj", "{75C3C4C7-2807-4357-8CD9-FF5EDC552802}"
 EndProject
@@ -12,8 +12,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceSegregationPrinciple", "InterfaceSegregationPrinciple\InterfaceSegregationPrinciple.csproj", "{38254FA9-5EBA-439F-8E64-66E1CF191363}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInversionPrinciple", "DependencyInversionPrinciple\DependencyInversionPrinciple.csproj", "{40FAD1BC-C2BD-4646-9D84-68D471775BB1}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderPattern", "BuilderPattern.cs\BuilderPattern.csproj", "{25DB619C-2C37-4020-8F18-61E5536D7D82}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoriesPattern", "FactoriesPattern\FactoriesPattern.csproj", "{7AD99B1A-D004-4606-B4EB-5918D7DBD5A7}"
 EndProject
@@ -53,8 +51,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPattern", "Observer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatePattern", "StatePattern\StatePattern.csproj", "{01529BC7-1AA2-44E4-9F1B-6D08AFD64061}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPattern.cs", "StrategyPattern.cs\StrategyPattern.cs.csproj", "{2E0DE438-010F-41B1-9A4C-6F388A48F3C3}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethodPattern", "TemplateMethodPattern\TemplateMethodPattern.csproj", "{DD7B66EE-A29F-4A26-99AA-40D2E174A7CE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisitorPattern", "VisitorPattern\VisitorPattern.csproj", "{C9860247-9969-4281-8CCD-F7A89685EDA5}"
@@ -64,6 +60,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalInversionOfControl", "LocalInversionOfControl\LocalInversionOfControl.csproj", "{DC1A2A3B-1F38-4BBF-8D71-BBFC9F79DDB6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeyondElvisOperator", "BeyondElvisOperator\BeyondElvisOperator.csproj", "{B70391E2-6F05-4EC2-8D60-B4C4A30C1183}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderPattern", "BuilderPattern\BuilderPattern.csproj", "{25DB619C-2C37-4020-8F18-61E5536D7D82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPattern.cs", "StrategyPattern\StrategyPattern.cs.csproj", "{2E0DE438-010F-41B1-9A4C-6F388A48F3C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -91,10 +91,6 @@ Global
 		{40FAD1BC-C2BD-4646-9D84-68D471775BB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40FAD1BC-C2BD-4646-9D84-68D471775BB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40FAD1BC-C2BD-4646-9D84-68D471775BB1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{25DB619C-2C37-4020-8F18-61E5536D7D82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{25DB619C-2C37-4020-8F18-61E5536D7D82}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{25DB619C-2C37-4020-8F18-61E5536D7D82}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{25DB619C-2C37-4020-8F18-61E5536D7D82}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7AD99B1A-D004-4606-B4EB-5918D7DBD5A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7AD99B1A-D004-4606-B4EB-5918D7DBD5A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7AD99B1A-D004-4606-B4EB-5918D7DBD5A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -171,10 +167,6 @@ Global
 		{01529BC7-1AA2-44E4-9F1B-6D08AFD64061}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01529BC7-1AA2-44E4-9F1B-6D08AFD64061}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01529BC7-1AA2-44E4-9F1B-6D08AFD64061}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2E0DE438-010F-41B1-9A4C-6F388A48F3C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2E0DE438-010F-41B1-9A4C-6F388A48F3C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2E0DE438-010F-41B1-9A4C-6F388A48F3C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2E0DE438-010F-41B1-9A4C-6F388A48F3C3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DD7B66EE-A29F-4A26-99AA-40D2E174A7CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DD7B66EE-A29F-4A26-99AA-40D2E174A7CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD7B66EE-A29F-4A26-99AA-40D2E174A7CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -195,6 +187,14 @@ Global
 		{B70391E2-6F05-4EC2-8D60-B4C4A30C1183}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B70391E2-6F05-4EC2-8D60-B4C4A30C1183}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B70391E2-6F05-4EC2-8D60-B4C4A30C1183}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25DB619C-2C37-4020-8F18-61E5536D7D82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25DB619C-2C37-4020-8F18-61E5536D7D82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25DB619C-2C37-4020-8F18-61E5536D7D82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25DB619C-2C37-4020-8F18-61E5536D7D82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E0DE438-010F-41B1-9A4C-6F388A48F3C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E0DE438-010F-41B1-9A4C-6F388A48F3C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E0DE438-010F-41B1-9A4C-6F388A48F3C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E0DE438-010F-41B1-9A4C-6F388A48F3C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
